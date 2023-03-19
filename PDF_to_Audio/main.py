@@ -4,6 +4,8 @@ from PyQt5.QtCore import *
 from PyQt5.QtGui import *
 import ccxt
 from red1 import convertir_audio
+
+
 class MainApp(QMainWindow):
     def __init__(self, parent=None, *args):
         super(MainApp, self).__init__(parent = parent)
